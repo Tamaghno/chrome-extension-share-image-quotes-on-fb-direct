@@ -1,0 +1,23 @@
+{
+    "name": "Share Image/Quotes FB",
+    "description": "Shares images and quote directly on your facebook page with a single right-click",
+    "version": "1.0.1",
+    "developer": "tamaghno",
+    "permissions": ["contextMenus","activeTab"],
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "64": "64.png",
+        "128": "128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.google.com/*"],
+            "js": ["index.js"]
+        }
+    ],
+    "manifest_version": 2
+}
