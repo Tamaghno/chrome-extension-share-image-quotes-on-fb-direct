@@ -2,7 +2,7 @@
     "name": "Share Image/Quotes FB",
     "description": "Shares images and quote directly on your facebook page with a single right-click",
     "version": "1.0.1",
-    "developer": "tamaghno",
+    //"developer": "tamaghno",
     "permissions": ["contextMenus","activeTab"],
     "icons": {
         "16": "16.png",
